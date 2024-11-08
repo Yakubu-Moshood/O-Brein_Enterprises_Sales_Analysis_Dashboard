@@ -10,7 +10,8 @@ Sales Data: The primary dataset used for this analysis is the sales data file pr
 ### PROCESS
 - Verified the data for any inconsistencies, missing values, and anomalies
 - Make sure the data is consistent and clean concerning data type, data format, and values used
-- Imported into PowerBI desktop and created new measures and date calendar to answer the business requirements and questions. The DAX measures expressions can be found here []()
+- Imported into PowerBI desktop and created new measures and date calendar to answer the business requirements and questions. The DAX measures expressions can be found here [](https://github.com/Yakubu-Moshood/O-Brein_Enterprises_Sales_Analysis_Dashboard/blob/main/DAX_Expressions_used_in_O'Brein_Sales_Project.txt)
+
 - Created a dashboard and applied slicers to make the dashboard dynamic and interactive.
 - #### Dashboard
 <img width="604" alt="SALE DASHBOARD SCREENSHOT" src="https://github.com/user-attachments/assets/a601694f-ecd6-4a90-b4f4-5355142714cc">
@@ -60,9 +61,7 @@ Geographical Sales Distribution
 Key Metrics Summary
 An interactive PowerBI dashboard can be downloaded [here]
 
-The DAX expression used to calculate new measures can be found [here]
 
-The DAX expression used to create the date table can be found [here]
 
 
 
