@@ -19,13 +19,9 @@ Sales Data: The primary dataset used for this analysis is the sales data file pr
 - Dashboard Lay outing
 - Charts Development and Formatting
 - Dashboard / Report Development
-- Insights Generation
-
-
-
-- Created a dashboard and applied slicers to make the dashboard dynamic and interactive.
-- #### Dashboard
+#### Dashboard 
 <img width="604" alt="SALE DASHBOARD SCREENSHOT" src="https://github.com/user-attachments/assets/a601694f-ecd6-4a90-b4f4-5355142714cc">
+- Insights Generation
 
 ### EXECUTIVE SUMMARY
 #### Overview Of Findings
