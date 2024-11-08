@@ -32,7 +32,8 @@ The entire interactive dashboard can be downloaded [here](https://github.com/Yak
 
 
 ### KEY INSIGHTS
-**####ANALYSIS by Region**
+
+##### ANALYSIS by Region
 
 - **Central Region:**
 
