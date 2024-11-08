@@ -11,7 +11,10 @@ Sales Data: The primary dataset used for this analysis is the sales data file pr
 - Verified the data for any inconsistencies, missing values, and anomalies
 - Make sure the data is consistent and clean concerning data type, data format, and values used
 - Imported into PowerBI desktop and created new measures and date calendar to answer the business requirements and questions. The DAX measures expressions can be found here []()
-- Created a dashboard and applied slicers to make the dashboard dynamic and interactive. [here](https://github.com/Yakubu-Moshood/O-Brein_Enterprises_Sales_Analysis_Dashboard/blob/main/SALE%20DASHBOARD%20SCREENSHOT.png)
+- Created a dashboard and applied slicers to make the dashboard dynamic and interactive.
+- #### Dashboard
+<img width="604" alt="SALE DASHBOARD SCREENSHOT" src="https://github.com/user-attachments/assets/a601694f-ecd6-4a90-b4f4-5355142714cc">
+
 
 Insights and recommendations are provided in the following key areas:
 
