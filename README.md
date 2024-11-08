@@ -24,7 +24,7 @@ The entire interactive dashboard can be downloaded [here](https://github.com/Yak
 
 
 ### KEY INSIGHTS
-**ANALYSIS by Region**
+**####ANALYSIS by Region**
 
 - **Central Region:**
 
@@ -60,23 +60,8 @@ The Current Year (CY) and Previous Year (PY) Metrics table provides a snapshot o
 
 
 Total Sales: $733.95K (CY), a 20% increase from the previous year. Total Profit: $93.58K (CY), with a significant -27% decrease YoY, suggesting that while sales volumes are growing, margins are under pressure. Quantity Growth: Increased by 27% YoY, with total units sold reaching 12,515.
-Insights and recommendations are provided in the following key areas:
 
-Regional Sales Trend, Profit and Quantity
-Geographical Sales Distribution
-Key Metrics Summary
-An interactive PowerBI dashboard can be downloaded [here]
-
-
-
-
-
-Some DAX expressions were used to calculate new measures and create a date calendar to help with this analysis. These DAX expressions can be found here [here]
-
-
-
-
-Sales Trends:
+### Sales Trends:
 From 2021 to 2024, O'Brian Enterprises has demonstrated a steady upward trend in sales across all regions, reflecting strong market demand and effective sales strategies in specific areas. Sales have grown by 20% year-over-year in 2024, with each region contributing to this increase:
 
 West Region consistently leads in sales volume, achieving a 33% growth in 2024, driven by higher quantities sold.
@@ -87,7 +72,7 @@ This sales growth is accompanied by increased quantities sold, although profitab
 
 
 
-RECOMMENDATIONS
+### RECOMMENDATIONS
 Focus on Profitability in High-Growth Regions:
 
 The West and East regions show strong sales and quantity growth but declining profit margins. O'Brian Enterprises should consider reviewing pricing strategies, reducing discounting, or controlling costs in these regions to improve profitability while sustaining demand.
