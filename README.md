@@ -8,9 +8,20 @@ To Develop an interactive, dynamic dashboard that facilitates analysis of key me
 Sales Data: The primary dataset used for this analysis is the sales data file provided by the company, which contains detailed information about sales from different regions in the country. The file can be found [here](https://github.com/Yakubu-Moshood/O-Brein_Enterprises_Sales_Analysis_Dashboard/blob/main/Sales%20Overview%20Data.xlsx) 
 
 ### PROCESS
-- Verified the data for any inconsistencies, missing values, and anomalies
-- Make sure the data is consistent and clean concerning data type, data format, and values used
-- Imported into PowerBI desktop and created new measures and date calendar to answer the business requirements and questions. The DAX measures expressions can be found [here](https://github.com/Yakubu-Moshood/O-Brein_Enterprises_Sales_Analysis_Dashboard/blob/main/DAX_Expressions_used_in_O'Brein_Sales_Project.txt)
+- Requirement Gathering/ Business Requirements
+- Data Walkthrough
+- Data Connection
+- Data Cleaning / Quality Check
+- Data Modeling
+- Data Processing
+- DAX Calculations - The DAX expressions used for the calculations can be found [here](https://github.com/Yakubu-Moshood/O-Brein_Enterprises_Sales_Analysis_Dashboard/blob/main/DAX_Expressions_used_in_O'Brein_Sales_Project.txt)
+- Dashboard Background
+- Dashboard Lay outing
+- Charts Development and Formatting
+- Dashboard / Report Development
+- Insights Generation
+
+
 
 - Created a dashboard and applied slicers to make the dashboard dynamic and interactive.
 - #### Dashboard
