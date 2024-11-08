@@ -16,6 +16,12 @@ Sales Data: The primary dataset used for this analysis is the sales data file pr
 - #### Dashboard
 <img width="604" alt="SALE DASHBOARD SCREENSHOT" src="https://github.com/user-attachments/assets/a601694f-ecd6-4a90-b4f4-5355142714cc">
 
+### EXECUTIVE SUMMARY
+#### Overview Of Findings
+Sales and quantity have shown strong growth this year, with a 20% increase in sales and a 27% increase in quantity sold; however, profitability has declined by 27%, suggesting margin pressures. The West and East regions lead in sales growth but face significant drops in profit, indicating a need to optimize costs or pricing strategies. California, New York, and Texas are top-performing states, while lower-sales states like Arizona and Michigan present growth opportunities. Seasonal trends are evident, with peak sales in summer months, particularly in the East and West regions, guiding potential timing for inventory and promotional efforts.
+
+The entire interactive dashboard can be downloaded [here](https://github.com/Yakubu-Moshood/O-Brein_Enterprises_Sales_Analysis_Dashboard/blob/main/O'BREIN%20SALES%20OVERVIEW%20DASHBOARD%20BY%20REGION%20BY%20REGION%20PROJECT.pbix)
+
 
 ### KEY INSIGHTS
 **ANALYSIS by Region**
@@ -68,11 +74,7 @@ An interactive PowerBI dashboard can be downloaded [here]
 Some DAX expressions were used to calculate new measures and create a date calendar to help with this analysis. These DAX expressions can be found here [here]
 
 
-EXECUTIVE SUMMARY
-Overview Of Findings
-Sales and quantity have shown strong growth this year, with a 20% increase in sales and a 27% increase in quantity sold; however, profitability has declined by 27%, suggesting margin pressures. The West and East regions lead in sales growth but face significant drops in profit, indicating a need to optimize costs or pricing strategies. California, New York, and Texas are top-performing states, while lower-sales states like Arizona and Michigan present growth opportunities. Seasonal trends are evident, with peak sales in summer months, particularly in the East and West regions, guiding potential timing for inventory and promotional efforts.
 
-Below is the overview page from the PowerBI dashboard. The entire interactive dashboard can be downloaded here [here]
 
 Sales Trends:
 From 2021 to 2024, O'Brian Enterprises has demonstrated a steady upward trend in sales across all regions, reflecting strong market demand and effective sales strategies in specific areas. Sales have grown by 20% year-over-year in 2024, with each region contributing to this increase:
