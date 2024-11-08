@@ -16,6 +16,43 @@ Sales Data: The primary dataset used for this analysis is the sales data file pr
 <img width="604" alt="SALE DASHBOARD SCREENSHOT" src="https://github.com/user-attachments/assets/a601694f-ecd6-4a90-b4f4-5355142714cc">
 
 
+### KEY INSIGHTS
+**ANALYSIS by Region**
+
+- **Central Region:**
+
+- Quantity: Achieved 2,880 units, with a 0% growth in sales compared to the previous year.
+- Profit: $7.55K, showing a -62% decline compared to last year.
+Sales Trend: Monthly sales are stable, but profitability has declined significantly.
+
+**East Region:**
+
+- Quantity: 3,450 units, marking an 18% increase in sales year-over-year.
+- Profit: $33.83K, though there was a -65% drop in profitability.
+- Monthly Analysis: Strong sales trend during summer months (July and August), with potential to increase profitability.
+
+**South Region:**
+
+- Quantity: 1,915 units, with 31% sales growth year-over-year.
+- Profit: $8.85K, reflecting a -50% decrease from the previous year.
+- Trend Analysis: Consistent monthly growth in sales, especially during the third quarter, suggesting seasonal demand spikes.
+
+**West Region:**
+
+- Quantity: Highest quantity at 4,270 units, and 33% YoY sales growth.
+Profit: $24.05K, with a -36% decline in profit compared to the previous year.
+- Sales Patterns: Notable increase in sales during late summer and early fall, positioning the West as a key region for volume despite lower profitability.
+  
+Geographic Sales Distribution (Sales by State) The Sales by State visual, comprising a bubble map and bar chart, highlights state-level performance:
+
+Top Performing States: California, New York, and Texas show high sales volume, with California leading. Opportunities: Variances in sales across states present opportunities for targeted campaigns in lower-performing states like Arizona and Michigan.
+
+**Key Metrics Summary:** 
+The Current Year (CY) and Previous Year (PY) Metrics table provides a snapshot of year-over-year changes:
+<img width="316" alt="SALES DASHBOARD YoY Metric Screenshot" src="https://github.com/user-attachments/assets/6817a263-4770-43bb-90c8-eb77bf3ac9db">
+
+
+Total Sales: $733.95K (CY), a 20% increase from the previous year. Total Profit: $93.58K (CY), with a significant -27% decrease YoY, suggesting that while sales volumes are growing, margins are under pressure. Quantity Growth: Increased by 27% YoY, with total units sold reaching 12,515.
 Insights and recommendations are provided in the following key areas:
 
 Regional Sales Trend, Profit and Quantity
@@ -47,35 +84,7 @@ South Region saw the highest YoY sales growth rate of 31% in 2024, indicating a 
 Central Region remained stable with no growth in 2024, suggesting limited market expansion or saturation in this region.
 This sales growth is accompanied by increased quantities sold, although profitability has declined, indicating that while O'Brian Enterprises is capturing market demand, it faces challenges with cost or pricing that impact margins.
 
-KEY INSIGHTS
-ANALYSIS by Region
-Central Region:
 
-Quantity: Achieved 2,880 units, with a 0% growth in sales compared to the previous year.
-Profit: $7.55K, showing a -62% decline compared to last year.
-Sales Trend: Monthly sales are stable, but profitability has declined significantly.
-East Region:
-
-Quantity: 3,450 units, marking an 18% increase in sales year-over-year.
-Profit: $33.83K, though there was a -65% drop in profitability.
-Monthly Analysis: Strong sales trend during summer months (July and August), with potential to increase profitability.
-South Region:
-
-Quantity: 1,915 units, with 31% sales growth year-over-year.
-Profit: $8.85K, reflecting a -50% decrease from the previous year.
-Trend Analysis: Consistent monthly growth in sales, especially during the third quarter, suggesting seasonal demand spikes.
-West Region:
-
-Quantity: Highest quantity at 4,270 units, and 33% YoY sales growth.
-Profit: $24.05K, with a -36% decline in profit compared to the previous year.
-Sales Patterns: Notable increase in sales during late summer and early fall, positioning the West as a key region for volume despite lower profitability.
-Geographic Sales Distribution (Sales by State) The Sales by State visual, comprising a bubble map and bar chart, highlights state-level performance:
-
-Top Performing States: California, New York, and Texas show high sales volume, with California leading. Opportunities: Variances in sales across states present opportunities for targeted campaigns in lower-performing states like Arizona and Michigan.
-
-Key Metrics Summary The Current Year (CY) and Previous Year (PY) Metrics table provides a snapshot of year-over-year changes:
-
-Total Sales: $733.95K (CY), a 20% increase from the previous year. Total Profit: $93.58K (CY), with a significant -27% decrease YoY, suggesting that while sales volumes are growing, margins are under pressure. Quantity Growth: Increased by 27% YoY, with total units sold reaching 12,515.
 
 RECOMMENDATIONS
 Focus on Profitability in High-Growth Regions:
