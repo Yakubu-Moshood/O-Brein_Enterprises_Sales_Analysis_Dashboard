@@ -20,7 +20,8 @@ Sales Data: The primary dataset used for this analysis is the sales data file pr
 - Charts Development and Formatting
 - Dashboard / Report Development
 #### Dashboard 
-<img width="604" alt="SALE DASHBOARD SCREENSHOT" src="https://github.com/user-attachments/assets/a601694f-ecd6-4a90-b4f4-5355142714cc">
+<img width="604" alt="SALE DASHBOARD SCREENSHOT" src="https://github.com/user-attachments/assets/a601694f-ecd6-4a90-b4f4-5355142714cc"> 
+
 - Insights Generation
 
 ### EXECUTIVE SUMMARY
