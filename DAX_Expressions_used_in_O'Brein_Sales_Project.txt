@@ -1,0 +1,109 @@
+1. Dynamic Title = MAX('Select Metric'[Select Metric])
+
+
+2. SELECT METRIC 
+
+Select Metric = {
+    ("Sale", NAMEOF('Sales Data'[Total sale]), 0),
+    ("Profit", NAMEOF('Sales Data'[Total Profit]), 1),
+    ("Quantity", NAMEOF('Sales Data'[Total Quantity]), 2)
+}
+
+
+3. CALENDAR TABLE
+
+Calendar Table = CALENDAR(MIN('Sales Data'[Order Date]),MAX('Sales Data'[Order Date]))
+
+
+4. Month = FORMAT('Calendar Table'[Date],"mmm")
+
+
+5. Month Number = MONTH('Calendar Table'[Date])
+
+
+6. Year = YEAR('Calendar Table'[Date])
+
+
+7. CY Profit = 
+      VAR selectedyear = SELECTEDVALUE('Calendar Table'[Year])
+      VAR currentyearsales = CALCULATE([Total Profit], 'Calendar   Table'[Year] = selectedyear) 
+    RETURN currentyearsales
+
+
+8. CY Qty = 
+      VAR selectedyear = SELECTEDVALUE('Calendar Table'[Year])
+      VAR currentyearsales = CALCULATE([Total Quantity], 'Calendar Table'[Year] = selectedyear) 
+    RETURN currentyearsales
+
+
+9. CY Sales = 
+      VAR selectedyear = SELECTEDVALUE('Calendar Table'[Year])
+      VAR currentyearsales = CALCULATE([Total sale], 'Calendar Table'[Year] = selectedyear) 
+    RETURN currentyearsales
+
+
+10. PY KPI Sales = 
+      VAR SelectedYear = SELECTEDVALUE('Calendar Table'[Year])
+      VAR PreviousYearSales = CALCULATE([Total sale],'Calendar Table'[Year] = SelectedYear -1)
+    VAR FORMATPYSales = FORMAT(PreviousYearSales/1000,"0.00")
+    RETURN
+        IF(ISBLANK(PreviousYearSales), "PY Sales: No Data", "PY Sales: "& FORMATPYSales & "K")
+
+
+11. PY Profit = 
+      VAR selectedyear = SELECTEDVALUE('Calendar Table'[Year])
+      VAR PreciousYearSales = CALCULATE([Total Profit], 'Calendar Table'[Year] = selectedyear -1)
+    RETURN PreciousYearSales 
+
+
+12. PY Qty = 
+      VAR selectedyear = SELECTEDVALUE('Calendar Table'[Year])
+      VAR PreciousYearSales = CALCULATE([Total Quantity], 'Calendar Table'[Year] = selectedyear -1)
+    RETURN PreciousYearSales 
+
+
+13. PY Sales = 
+      VAR selectedyear = SELECTEDVALUE('Calendar Table'[Year])
+      VAR PreciousYearSales = CALCULATE([Total sale], 'Calendar Table'[Year] = selectedyear -1)
+    RETURN PreciousYearSales 
+
+
+14. Total Profit = SUM('Sales Data'[Profit])
+
+
+15. Total Quantity = SUM('Sales Data'[Quantity])
+
+
+16. Total sale = SUM('Sales Data'[Sales])
+
+
+17. YoY Profit = 
+      VAR CUrrentYearSales = [CY Profit]
+      VAR PreviousYearSales = [PY Profit]
+      VAR YoYChange = DIVIDE(CUrrentYearSales -  PreviousYearSales,PreviousYearSales)
+      VAR PRINT =
+        IF(YoYChange > 0, UNICHAR(9650) & " " & FORMAT(YoYChange, "0%"), 
+                          UNICHAR(9660) & " " & FORMAT(YoYChange, "0%"))
+    RETURN PRINT
+
+
+18. YoY Qty = 
+      VAR CUrrentYearSales = [CY Qty]
+      VAR PreviousYearSales = [PY Qty]
+      VAR YoYChange = DIVIDE(CUrrentYearSales - PreviousYearSales,PreviousYearSales)
+      VAR PRINT =
+          IF(YoYChange > 0, UNICHAR(9650) & " " & FORMAT(YoYChange, "0%"), 
+                          UNICHAR(9660) & " " & FORMAT(YoYChange, "0%"))
+    RETURN PRINT
+
+
+19. YoY Sales = 
+      VAR CUrrentYearSales = [CY Sales]
+      VAR PreviousYearSales = [PY Sales]
+      VAR YoYChange = DIVIDE(CUrrentYearSales - PreviousYearSales,PreviousYearSales)
+      VAR PRINT =
+        IF(YoYChange > 0, UNICHAR(9650) & " " & FORMAT(YoYChange, "0%"), 
+                          UNICHAR(9660) & " " & FORMAT(YoYChange, "0%"))
+    RETURN PRINT
+
+
